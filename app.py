@@ -33,18 +33,20 @@ def index():
         input_prompt = """
         As a nutrition expert, your task is to analyze the nutritional content of the food items captured in the image. 
         Please provide the following details for each food item:
+        
         1. Item Name - Number of Calories
         2. Item Name - Number of Calories
         3. ...
 
         Additionally, assess whether the food is considered healthy based on its nutritional profile. 
+        
         Provide insights on portion sizes, serving recommendations, and the overall nutritional value of the meal or snack.
-        Evaluate the balance of essential nutrients and micronutrients in the food items, including carbohydrates, fats, proteins, fibers, sugars, vitamins, and minerals. 
+        
+        Evaluate the balance of essential nutrients and micronutrients in the food items, including carbohydrates, fats, proteins, fibers, sugars, vitamins, and minerals.
+         
         Offer suggestions for dietary modifications or healthier alternatives based on the nutritional analysis.
+        
         Consider including information on allergens, dietary restrictions, or special considerations for specific dietary patterns (e.g., vegan, gluten-free, low-carb).
-
-        Encourage users to make informed food choices by understanding the nutritional content of their meals and the potential impact 
-        on energy levels, weight management, and overall health and well-being.
 """
         image_data = input_image_setup(uploaded_file)
         response = gemini_response(input_prompt, image_data)                                                                                                    
