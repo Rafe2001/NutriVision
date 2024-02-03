@@ -1,0 +1,32 @@
+/* styles.css */
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.heading {
+    color: #007bff;
+}
+
+.result {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.result-heading {
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.response {
+    padding: 15px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    font-size: 18px;
+}
