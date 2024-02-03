@@ -2,6 +2,11 @@
 
 NutriVision is a web application that helps users analyze food items from images and calculate their nutritional content. The application provides details of each food item, including calorie intake, macronutrient breakdown, and whether the food is considered healthy based on nutritional guidelines.
 
+![Screenshot 2024-02-03 230420](https://github.com/Rafe2001/NutriVision/assets/108533597/153b8467-8f0a-468e-a7f8-0d82f26b70f8)
+
+![image](https://github.com/Rafe2001/NutriVision/assets/108533597/2ac561c3-89e6-47c4-8f76-9b9e9e040acb)
+
+
 ## Features
 
 - **Image Upload**: Users can upload images of food items to the application.
